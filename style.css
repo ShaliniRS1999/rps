@@ -1,0 +1,269 @@
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container {
+     background-image: radial-gradient(circle at top center,rgba(14, 23, 117, 0.938),rgb(11, 19, 78),rgb(10, 6, 68),rgba(7, 11, 56, 0.932)); 
+}
+
+.border1 {
+    margin:20px 200px;
+    padding:10px 20px;
+    border:4px solid hsl(217, 16%, 45%); 
+    border-radius:5px;
+}
+.border1 .logo {
+    width:50%;
+    height:80%;
+}
+.logo img {
+    width:50%;
+}
+.score {
+    border-radius: 5px;
+    padding:5px 20px;
+    margin-left:215px;
+}
+.score span {
+    font-weight:600;
+}
+.score-num {
+    color:rgb(73, 73, 73);
+    font-weight:700;
+}
+
+.triangle {
+    margin:100px 350px 50px 350px;
+}
+
+.btn {
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius:5px;
+    color: white;
+    font-weight:600;
+    padding:2px 20px;
+}
+
+
+
+.paper-button {
+    position: absolute;
+    top:275px;
+    left:35rem;
+    border:15px solid hsl(230, 89%, 62%);
+    border-radius: 50%;
+    padding:20px 25px;
+}
+
+.scissor-button {
+    position: absolute;
+    top:275px;
+    left:50rem;
+    border:15px solid hsl(39, 89%, 49%);
+    border-radius: 50%;
+    padding:20px 25px;
+}
+.rock-button {
+    position: absolute;
+    top:480px;
+    left:43rem;
+    border:15px solid hsl(349, 71%, 52%) ;
+    border-radius: 50%;
+    padding:25px 25px;
+}
+
+.modal {
+    margin-top:150px;
+}
+.modal h4 {
+    font-weight:700;
+    color:hsl(228, 69%, 25%);
+}
+.result {
+    margin-top:15rem;
+    margin-left:26rem;
+}
+.playagain {
+    background-color:white;
+    margin:2rem 0rem 5rem 28rem;
+    color:rgb(180, 25, 103);
+    border:1px solid white;
+    padding:10px 15px;
+}
+.rockagain {
+    position: absolute;
+    top:25rem;
+    left:20rem;
+    border:17px solid hsl(349, 71%, 52%) ;
+    border-radius: 50%;
+    padding:35px 35px;
+}
+
+.scissoragain {
+    position: absolute;
+    top:25rem;
+    left:20rem;
+    border:17px solid hsl(39, 89%, 49%);
+    border-radius: 50%;
+    padding:30px 35px;
+}
+
+.paperagain {
+    position: absolute;
+    top:25rem;
+    left:20rem;
+    border:17px solid hsl(230, 89%, 62%);
+    border-radius: 50%;
+    padding:30px 35px;
+}
+
+h3 {
+    position: absolute;
+    top:20rem;
+    left:20rem;
+    color: white;
+    font-weight:700;
+}
+
+.computer {
+    left:60rem;
+}
+
+@media (max-width:376px) {
+
+    .border1 {
+        margin:5px 0px;
+        padding:5px 3px;
+    }
+     .logo img {
+        width:80%;
+    }
+    .btn {
+        margin-bottom:5px;
+        margin-right:100px;
+        margin-top:0px;
+    }
+    .score {
+        border-radius: 5px;
+        padding:2px 20px;
+        margin-left:20px;
+    }
+    .score-num {
+        font-size:25px;
+        text-align: center;;
+    }
+
+    .triangle {
+        margin:140px 30px 140px 30px;
+        width:75%;
+    }
+    .paper-button {
+        position: absolute;
+        top:240px;
+        left:35px;
+        border:10px solid hsl(230, 89%, 62%);
+        border-radius: 50%;
+        padding:10px 10px;
+    }
+
+    .paper-button img {
+        width:75%;
+    }
+
+    .scissor-button {
+        position: absolute;
+        top:240px;
+        left:200px;
+        border:10px solid hsl(39, 89%, 49%);
+        border-radius: 50%;
+        padding:10px;
+    }
+
+    .scissor-button img {
+        width:75%;
+    }
+    
+    .rock-button {
+        position: absolute;
+        top:400px;
+        left:130px;
+        border:10px solid hsl(349, 71%, 52%) ;
+        border-radius: 50%;
+        padding:10px;
+    }
+
+    .rock-button img {
+        width:75%;
+    }
+
+    .modal {
+        margin-top:10px;
+        width:100%;
+    }
+  
+    .modal img {
+        width:100%;
+    }
+
+    .result {
+        margin-top:300px;
+        margin-left:2rem;
+}
+
+
+.playagain {
+        margin:2rem 5rem 2rem 5rem;
+        color:rgb(180, 25, 103);
+        border:1px solid white;
+        padding:5px 15px;
+    }
+.rockagain {
+        position: absolute;
+        top:200px;
+        left:30px;
+        border:10px solid hsl(349, 71%, 52%) ;
+        border-radius: 50%;
+        padding:25px 20px;
+    }
+    
+.rockagain img {
+        width:75%;
+    }
+
+.scissoragain {
+        position: absolute;
+        top:200px;
+        left:30px;
+        border:10px solid hsl(39, 89%, 49%);
+        border-radius: 50%;
+        padding:20px;
+    }
+    
+.scissoragain img {
+        width:75%;
+    }
+.paperagain {
+        position: absolute;
+        top:200px;
+        left:30px;
+        border:10px solid hsl(230, 89%, 62%);
+        border-radius: 50%;
+        padding:20px;
+    }
+    
+    .paperagain img {
+        width:75%;
+    }
+    h3 {
+        position: absolute;
+        top:350px;
+        left:25px;
+        font-size:20px;
+    }
+    
+    .computer {
+        left:230px;
+        font-size:20px;
+    }
+}
+
